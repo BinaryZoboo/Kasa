@@ -6,9 +6,11 @@ import "./sass/main.scss";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <div className="container">
-    <Router>
-      <AppRoutes />
-    </Router>
-  </div>
+  <>
+    <div className="container">
+      <Router>
+        <AppRoutes />
+      </Router>
+    </div>
+  </>
 );
