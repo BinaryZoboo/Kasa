@@ -1,22 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "../../sass/components/header.module.scss";
 import logo from "../data/logo.png";
 
 const Header = () => {
   return (
-    <header className={styles.headers}>
+    <header className="headers">
       <Link to={"/"}>
         <img src={logo} alt="Logo de Kasa" />
       </Link>
-      <ul className={styles.ulHead}>
-        <li className={styles.liHead}>
-          <Link to={"/"} className={styles.aLiHead}>
+      <ul className="ulHead">
+        <li className="liHead">
+          <Link to={"/"} className="aLiHead">
             Accueil
           </Link>
         </li>
-        <li className={styles.liHead}>
-          <Link to={"/"} className={styles.aLiHead}>
+        <li className="liHead">
+          <Link to={"/"} className="aLiHead">
             A Propos
           </Link>
         </li>

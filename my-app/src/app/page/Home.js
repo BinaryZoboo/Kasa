@@ -1,4 +1,3 @@
-import styles from "../../sass/pages/home.module.scss";
 import Card from "../component/Card";
 import Footer from "../component/Footer";
 import Header from "../component/Header";
@@ -8,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <section className={styles.sectionhome}>
+      <section className="sectionhome">
         <Card logement={data} />
       </section>
       <Footer />
