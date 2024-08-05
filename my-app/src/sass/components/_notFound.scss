@@ -4,26 +4,29 @@
   align-items: center;
 }
 
-.first {
-  @include center;
-  width: 100%;
+.page-container {
+  display: flex;
   height: 100%;
-  gap: 15%;
   flex-direction: column;
 }
 
-.Err {
-  color: rgb(255, 96, 96);
-  width: auto;
-  height: auto;
-  font-size: 250px;
-}
-
-.oups {
-  color: rgb(255, 96, 96);
-  font-size: 36px;
-}
-
-.returnAcc {
-  text-decoration: underline;
+.first {
+  @include center;
+  margin: 0 10%;
+  height: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  h1 {
+    color: rgb(255, 96, 96);
+    width: auto;
+    height: auto;
+    font-size: calc(240 * var(--res));
+  }
+  p {
+    color: rgb(255, 96, 96);
+    font-size: 24px;
+  }
+  a {
+    text-decoration: underline;
+  }
 }

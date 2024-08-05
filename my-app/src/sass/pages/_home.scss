@@ -4,6 +4,37 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 30px;
   border-radius: 1%;
+}
+
+.banner {
+  position: relative;
+  height: 20%;
+  margin: 0 3%;
+  border-radius: 25px;
+  margin-bottom: 2%;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.banner p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Voile noir transparent à 50% */
+  color: white;
+  font-size: 48px;
+  font-weight: bolder;
+  border-radius: 25px;
+  margin: 0;
 }

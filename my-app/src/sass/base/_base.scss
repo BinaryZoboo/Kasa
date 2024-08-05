@@ -4,6 +4,7 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  --res: calc(0.01 * 10vmin);
 }
 
 a {
@@ -18,7 +19,5 @@ a {
 }
 
 .container {
-  max-width: 1920px;
-  max-height: 1080px;
   height: 100%;
 }

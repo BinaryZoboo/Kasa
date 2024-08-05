@@ -5,17 +5,15 @@ import Header from "../component/Header";
 
 const NotFound = () => {
   return (
-    <>
+    <div className="page-container">
       <Header />
       <main className="first">
-        <h1 className="Err">404</h1>
-        <p className="oups">Oups! La page que vous cherchez n'existe pas.</p>
-        <Link to="/" className="returnAcc">
-          Retourner sur la page d'accueil
-        </Link>
+        <h1>404</h1>
+        <p>Oups! La page que vous cherchez n'existe pas.</p>
+        <Link to="/">Retourner sur la page d'accueil</Link>
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
 
